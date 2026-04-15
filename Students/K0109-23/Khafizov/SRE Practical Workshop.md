@@ -170,10 +170,17 @@ server {
 
 
 # Lesson 3: Rate Limiting & Middleware Architecture
+Протестируем ограничения частоты запросов. Скрипт просто стучится по эндпоинтам и проверяет, что ограничения работают.
 <img width="564" height="364" alt="image" src="https://github.com/user-attachments/assets/c99b1595-e2c1-48fb-a40d-15000f669249" />
 
+Проверим журнал работы ограничений
 <img width="964" height="112" alt="image" src="https://github.com/user-attachments/assets/cebacced-0c56-4d83-bd27-03f9d38d5de6" />
 
+Посмотрим логи запросов в real-time
 <img width="882" height="360" alt="image" src="https://github.com/user-attachments/assets/6d09552d-e9c0-4fce-9288-7ac7b0e390db" />
 
+Посмотрим, что в БД тоже записались запросы
 <img width="1099" height="295" alt="image" src="https://github.com/user-attachments/assets/036217b1-7232-4163-bad6-2c5637de7dcb" />
+
+# Lesson 4: Logging & Observability
+Раздел готовится ...
