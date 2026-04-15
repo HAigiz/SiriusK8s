@@ -1,9 +1,9 @@
 Запускаем сервисы с помощью `docker compose up --build -d` и смотрим, что у нас всё запустилось `docker compose ps`
-
-
+<img width="880" height="390" alt="image" src="https://github.com/user-attachments/assets/7d3c75f4-fba5-4c0a-b5e4-e03fd15fd3dd" />
 
 Проверяем, что сервисы `health` и они работают
-(скрины)
+<img width="883" height="579" alt="image" src="https://github.com/user-attachments/assets/a6aaba34-48a1-45de-b565-5458986bb42c" />
+<img width="879" height="413" alt="image" src="https://github.com/user-attachments/assets/c8cd02c1-74f2-4aea-aabc-d2138dab4348" />
 
 **Проблемы, с которыми столкнулся:**
 - При запуске `docker compose up --build -d` изначально ругался и выдавал ошибку, что `go.sum` не может запуститься из-за гитхабовских контрольных сумм + `go.mod` тоже ругался на зависимости. Я просто пересоздал их с помощью `go mod init demo` и `go mod tidy`(конфиги по содержанию те же, но зато не выдают ошибок).
