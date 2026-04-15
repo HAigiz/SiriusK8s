@@ -159,6 +159,7 @@ server {
 <img width="791" height="834" alt="Снимок экрана 2026-04-15 152533" src="https://github.com/user-attachments/assets/7333d1ba-1c08-4694-8bfd-2407ed22b96d" />
 
 Проверим слои образа
+
 <img width="651" height="310" alt="Снимок экрана 2026-04-15 152603" src="https://github.com/user-attachments/assets/0abef530-5b86-4810-9b59-ee3ba0a4b82b" />
 
 Посмотрим объём образов, которые начинаются на `practic`
