@@ -201,6 +201,7 @@ server {
 
 ## Lesson 5: Network Debugging & Security
 Запустим скрипты для проверки сети
+
 <img width="576" height="411" alt="image" src="https://github.com/user-attachments/assets/dc9c1990-b7b7-4590-90cb-e58a7006284f" />
 <img width="836" height="535" alt="image" src="https://github.com/user-attachments/assets/33768fd4-3ddd-4648-8e79-4cf8aa13c25c" />
 
@@ -210,9 +211,11 @@ server {
 ---
 ## Capture HTTP Traffic Between Nginx and Middleware
 Запуск захвата пакетов в сети службы ограничения скорости для этого используем `docker-compose exec nginx tcpdump -i eth0 -A 'tcp port 3000'`
+
 <img width="886" height="479" alt="image" src="https://github.com/user-attachments/assets/423c52ab-1007-4a60-8365-768ba7eb3849" />
 
 И с другого терминала делаем запросы
+
 <img width="588" height="311" alt="image" src="https://github.com/user-attachments/assets/fa5457d6-97da-46a6-9dab-3fb34e993a2e" />
 
 Tcpdump выводит, что сначала у нас был запрос на синхронизацию (флаг [S]), потом подтверждение синхранизации (флаг [S.]), потом клиент подтвердил установку соединения (флаг [.]). Ну и в самом конце видим, что начали передаваться данные (флаг [P.]) можно увидеть код завершения "200 OK" + после передачи данных идет флаг [F.] завершение соединения.
