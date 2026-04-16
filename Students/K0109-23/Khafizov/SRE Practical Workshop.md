@@ -168,6 +168,7 @@ server {
 <img width="647" height="84" alt="Снимок экрана 2026-04-15 152636" src="https://github.com/user-attachments/assets/52adcbb7-6ad9-49d3-b266-0a4e3003cf4a" />
 
 Проверим файловую систему контейнера
+
 <img width="645" height="154" alt="Снимок экрана 2026-04-15 152744" src="https://github.com/user-attachments/assets/9a892646-84be-490a-b80f-131ad39a3f91" />
 
 
